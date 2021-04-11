@@ -1,0 +1,78 @@
+/*-----------Imports----------*/
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body{
+  margin: 0;
+}
+/*-----------Header----------*/
+#header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 95vw;
+  margin-left: 25px;
+  /* background-color: purple; */
+  font-family: 'Pacifico', cursive;
+}
+
+#page-nav {
+  display: flex;
+  flex-direction: row;
+  align-content: baseline;
+  width: 60vw;
+  margin-left: 300px;
+  margin-top: -115px;
+  margin-bottom: 200px;
+  justify-content: space-around;
+  /* background-color: chartreuse;  */
+}
+
+#header-links {
+  text-decoration: none;
+  color: black;
+}
+#resume{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  margin-left: 20px;
+}
+#about{
+  display: flex;
+ justify-content: center;
+  width: 100vw;
+  /* background-color: bisque; */
+}
+#subtitle{
+  display: flex;
+ justify-content: end;
+ 
+ margin-left: 80px;
+  width: 90vw;
+  /* background-color: chocolate; */
+}
+#regen{
+  margin-left: 40px;
+  margin-right: 40px;
+  background-color: azure;
+}
+.Video {
+  flex-direction: column;
+  align-self: flex-end;
+  width: 40vw;
+}
+#project{
+  display: flex;
+  flex-direction: column;
+  width: 95vw;
+  margin-left: 20px;
+}
+#myvideo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: blue; */
+}
+#home{
+  /* background-color: yellowgreen; */
+}
