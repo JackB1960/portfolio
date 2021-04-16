@@ -1,5 +1,7 @@
+// ==== required when using react+++++++++++
 import React from "react";
 
+// The normal function to render the page, you see this at the bottom of every page ====
 export default function Footer() {
   return (
     <div id="subtitle">

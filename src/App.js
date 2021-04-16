@@ -1,26 +1,33 @@
-//imports
+//=========   imports, Not used but I left them anyway===========
+import react from "react";
+import ReactDOM from "react-dom";
+
 import "./App.css";
 import { Switch, Route } from "react-router-dom";
 
 //component imports
-import HeaderNav from "./components/headerNav.js";
+import HeaderNav from "./components/headerNav";
 import Home from "./components/home";
-import About from "./components/about";
-import Work from "./components/work";
+import Storyline from "./components/storyline";
+import Experience from "./components/experience";
 import Projects from "./components/projects";
-import Footer from "./components/footer"
+import Services from "./components/services";
+import Footer from "./components/footer";
 
+// ===== funtion  ===============
 function App() {
   return (
     <div id="app">
+      {/* To get from one page to another */}
       <HeaderNav />
       <Switch>
-        <Route exact path={"/home"} components={Home} />
-        <Route path={"/about"} component={About} />
-        <Route path={"/work"} component={Work} />
+        <Route exact path={"/home"} component={Home} />
+        <Route path={"/storyline"} component={Storyline} />
+        <Route path={"/experience"} component={Experience} />
         <Route path={"/projects"} component={Projects} />
+        <Route path={"/services"} component={Services} />
       </Switch>
-      <Footer /> 
+      <Footer />
     </div>
   );
 }
