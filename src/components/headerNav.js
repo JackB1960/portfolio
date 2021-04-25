@@ -17,8 +17,8 @@ export default function headerNav() {
       </div>
 
       <div id="page-nav">
-        <Link id="header-links" to={"/experience"}>
-          Experience
+        <Link id="header-links" to={"/about"}>
+          About
         </Link>
 
         <Link id="header-links" to={"/services"}>
